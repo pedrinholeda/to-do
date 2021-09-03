@@ -7,7 +7,7 @@
 
 import UIKit
 
-class AssignmentUserDefauts {
+class AssignmentUserDefaults {
     // MARK: Properties
     let key = "listkey"
     var assignments: [String] = []
@@ -26,6 +26,12 @@ class AssignmentUserDefauts {
         assignments = list()
         
         assignments.append(assignment)
+        UserDefaults.standard.set(assignments, forKey: key)
+    }
+    
+    func remove (indice: Int) {
+        assignments = list()
+        assignments.remove(at: indice)
         UserDefaults.standard.set(assignments, forKey: key)
     }
     

@@ -14,7 +14,7 @@
 		E430E25126E1B31500D9F418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E430E24F26E1B31500D9F418 /* LaunchScreen.storyboard */; };
 		E430E25926E1B54B00D9F418 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430E25826E1B54B00D9F418 /* ToDoTableViewController.swift */; };
 		E430E25B26E1B5E600D9F418 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430E25A26E1B5E600D9F418 /* RegisterViewController.swift */; };
-		E430E25D26E1B70700D9F418 /* AssignmentUserDefauts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430E25C26E1B70700D9F418 /* AssignmentUserDefauts.swift */; };
+		E430E25D26E1B70700D9F418 /* AssignmentUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430E25C26E1B70700D9F418 /* AssignmentUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		E430E25226E1B31500D9F418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E430E25826E1B54B00D9F418 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		E430E25A26E1B5E600D9F418 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		E430E25C26E1B70700D9F418 /* AssignmentUserDefauts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUserDefauts.swift; sourceTree = "<group>"; };
+		E430E25C26E1B70700D9F418 /* AssignmentUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				E430E24626E1B31400D9F418 /* SceneDelegate.swift */,
 				E430E25826E1B54B00D9F418 /* ToDoTableViewController.swift */,
 				E430E25A26E1B5E600D9F418 /* RegisterViewController.swift */,
-				E430E25C26E1B70700D9F418 /* AssignmentUserDefauts.swift */,
+				E430E25C26E1B70700D9F418 /* AssignmentUserDefaults.swift */,
 				E430E24A26E1B31400D9F418 /* Main.storyboard */,
 				E430E24D26E1B31500D9F418 /* Assets.xcassets */,
 				E430E24F26E1B31500D9F418 /* LaunchScreen.storyboard */,
@@ -146,7 +146,7 @@
 				E430E24526E1B31400D9F418 /* AppDelegate.swift in Sources */,
 				E430E25926E1B54B00D9F418 /* ToDoTableViewController.swift in Sources */,
 				E430E24726E1B31400D9F418 /* SceneDelegate.swift in Sources */,
-				E430E25D26E1B70700D9F418 /* AssignmentUserDefauts.swift in Sources */,
+				E430E25D26E1B70700D9F418 /* AssignmentUserDefaults.swift in Sources */,
 				E430E25B26E1B5E600D9F418 /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

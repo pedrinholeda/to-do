@@ -24,7 +24,7 @@ class RegisterViewController: UIViewController {
     // MARK: Actions
     @IBAction func addAssignment(_ sender: Any) {
         if let userAssignment = textFieldAssignment.text {
-            let assignment = AssignmentUserDefauts()
+            let assignment = AssignmentUserDefaults()
             assignment.save(assignment: userAssignment)
             textFieldAssignment.text = ""
         }
