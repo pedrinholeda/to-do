@@ -11,7 +11,7 @@
         <!--Lista de Tarefas-->
         <scene sceneID="bQv-RI-6Ez">
             <objects>
-                <tableViewController id="tQT-ep-wy6" sceneMemberID="viewController">
+                <tableViewController id="tQT-ep-wy6" customClass="ToDoTableViewController" customModule="To_Do" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DRm-mo-fUq">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="901.875" y="-104.5774647887324"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="Bac-rH-bV5">
             <objects>
-                <viewController id="Ke1-cw-Bzv" sceneMemberID="viewController">
+                <viewController id="Ke1-cw-Bzv" customClass="RegisterViewController" customModule="To_Do" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="96r-F6-2xl">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,6 +66,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fB-2H-dMF">
                                 <rect key="frame" x="127.5" y="154" width="65" height="30"/>
                                 <state key="normal" title="Adicionar"/>
+                                <connections>
+                                    <action selector="addAssignment:" destination="Ke1-cw-Bzv" eventType="touchUpInside" id="wZ3-K1-eLX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yAk-bb-QaJ"/>
@@ -81,6 +84,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1KO-Kz-dEC"/>
+                    <connections>
+                        <outlet property="textFieldAssignment" destination="XPM-Ne-FvR" id="8cQ-M3-MNL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IZc-nv-UhI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -95,6 +101,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" systemColor="systemOrangeColor"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                         <textAttributes key="largeTitleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
